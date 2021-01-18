@@ -1,7 +1,7 @@
 public class leapYearCalculator {
     public static void main(String args[]){
         System.out.println("It is " + isALeap(2020) + " that it is leap year.");
-        System.out.println("The day calculated is : " + dayCal(3,2020));
+        System.out.println("3rd Month of 2020 has : " + dayCal(3,2020) + " days");
     }
     public static boolean isALeap(int year){
         boolean status = false;
